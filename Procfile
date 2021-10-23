@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -jar target/dependency/* --port $PORT target/*.war
+web:    java $JAVA_OPTS -jar target/dependency/* --port $PORT 4u-commerce-api
