@@ -21,7 +21,7 @@ import com.u.commerce.repository.UserRepository;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "*")
 public class UserController {
 
 	@Autowired

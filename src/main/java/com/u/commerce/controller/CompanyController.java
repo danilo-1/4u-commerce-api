@@ -19,7 +19,7 @@ import com.u.commerce.repository.CompanyRepository;
 
 @RestController
 @RequestMapping(value = "/company")
-@CrossOrigin(origins="http://localhost:8080")
+@CrossOrigin(origins="*")
 public class CompanyController {
 
 	@Autowired
